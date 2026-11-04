@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "postcss": "^8.4.25",
+    "postcss-cli": "^10.1.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-scopify": "^0.1.10"
+  }
+}

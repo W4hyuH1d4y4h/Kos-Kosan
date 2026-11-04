@@ -1,0 +1,36 @@
+body {
+	background: rgb(30, 48, 243);
+	background: linear-gradient(
+		90deg,
+		rgba(30, 48, 243, 1) 0%,
+		rgba(226, 30, 128, 1) 100%
+	);
+}
+
+body .btn-primary {
+	background: #003a70;
+}
+
+.form_punya {
+	display: none;
+}
+
+.container.active .form_punya {
+	display: block;
+}
+
+.container.active .form_huni {
+	display: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}

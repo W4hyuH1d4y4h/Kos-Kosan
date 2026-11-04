@@ -1,0 +1,31 @@
+.link-riwayat {
+	background: linear-gradient(45deg, #1e30f3, #e21e80);
+	transition: 0.3s;
+	padding: 8px;
+	display: flex;
+	border-radius: 6px;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.link-riwayat:hover {
+	background: linear-gradient(180deg, #ff7147, #e0417f);
+	color: white;
+}
+
+.bg-pesanan {
+	background-color: white;
+	padding-left: 16px;
+	padding-right: 16px;
+	box-shadow: rgba(3, 18, 26, 0.2) 0px 1px 2px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	/* display: flex; */
+	overflow: hidden;
+	border-radius: 6px;
+}
+
+.text-pesanan {
+	color: black;
+}

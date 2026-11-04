@@ -1,0 +1,32 @@
+.text-gradient {
+	background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.btn-transition {
+	background: linear-gradient(45deg, #1e30f3, #e21e80);
+	transition: all 0.3s ease-out;
+	transform: scale(1);
+	color: white;
+}
+
+.btn-transition:hover {
+	background: linear-gradient(180deg, #ff7147, #e0417f);
+	transform: scale(1.1);
+	color: white;
+}
+
+.bg-gradient-primary-to-secondary {
+	background: #1e30f3;
+	background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+}
+
+.profile {
+	position: relative;
+	height: 28.4vw;
+	border-radius: 3vw 3vw 0px 0px;
+	max-height: 25rem;
+	max-width: 40rem;
+}
